@@ -1,0 +1,23 @@
+{
+    "name": "jonathan-andrade/proyecto-integra",
+    "description": "Creacion de un proyecto para una empresa multidiciplinaria llamada Integra",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pelony",
+            "email": "61895704+Pelony@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
